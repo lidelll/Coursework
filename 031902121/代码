@@ -46,6 +46,7 @@ void find(sw& w, line& lin)//定义search函数进行遍历匹配
         {
             //如果插入数字或字母则跳过
             if (lin.str[i + 3] < 58 && lin.str[i + 3]>47 || lin.str[i + 3] > 64 && lin.str[i + 3] < 91 || lin.str[i + 3]>96 && lin.str[i + 3] < 123)continue;
+            //第一次匹配成功记录当前文本起始位置
             if (!j)k = i;
             i = i + 2;
             j = j + 3;

@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+    color: white;
+    width: 320px;
+    height: 55px;
+    display: block;
+    background-color: #535758;
+    font: 14px/55px 'Microsoft YaHei';
+    text-indent: 4em;
+}
+
+a:hover {
+    background-color: #fe6600;
+}

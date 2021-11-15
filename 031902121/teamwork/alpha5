@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>01综合案例</title>
+</head>
+<body>
+    <h3>青春不常在，抓紧谈恋爱</h3>
+    <table width="500">
+        <tr>
+            <td>性别</td>
+            <td>
+                <input type="radio" name="sex" id="nan" checked="checked"/> <label for="nan">男</label>
+                <input type="radio" name="sex" id="nv" /> <label for="nv">女</label>
+            </td>
+        </tr>
+        <tr>
+            <td>生日</td>
+            <td>
+                <select>
+                    <option>--请选择年--</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                </select>
+                <select>
+                    <option>--请选择月--</option>
+                </select>
+                <select>
+                    <option>--请选择日--</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="area">所在地区</label></td>
+            <td>
+                <input type="text" id="area" value="北京思密达"/>
+            </td>
+        </tr>
+        <tr>
+            <td>婚姻状况</td>
+            <td>
+                <input type="radio" name="marrige" id="weihun" checked="checked"/><label for="weihun">未婚</label>
+                <input type="radio" name="marrige" id="yihun" /><label for="yihun">已婚</label>
+                <input type="radio" name="marrige" id="lihun" /><label for="lihun">离婚</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="degree">学历</label></td>
+            <td><input type="text" id="degree" value="幼儿园"/></td>
+        </tr>
+        <tr>
+            <td>喜欢的类型</td>
+            <td>
+                <input type="checkbox" name="type" id="wumei" /><label for="wumei">妩媚的</label>
+                <input type="checkbox" name="type" id="keai" /><label for="keai">可爱的</label>
+                <input type="checkbox" name="type" id="xiaoxianrou" /><label for="xiaoxianrou">小鲜肉</label>
+                <input type="checkbox" name="type" id="laolarou" /><label for="laolarou">老腊肉</label>
+                <input type="checkbox" name="type" id="all suki" /><label for="all suki">都喜欢</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="readme">自我介绍</label></td>
+            <td>
+                <textarea id="readme">自我介绍</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="免费注册" /><br /><br />
+                <input type="checkbox" id="tiaokuan" checked="checked" /><label for="tiaokuan">我同意注册条款和会员加入标准</label><br />
+                <a href="#">我是会员，立即登录</a>
+                <h3>我承诺</h3>
+                <ul>
+                    <li>年满18周岁</li>
+                    <li>抱着严肃的态度</li>
+                    <li>真诚寻找另一半</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

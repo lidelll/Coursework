@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<signal.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+
+void main(void)
+{
+	int x, y, f;
+	f = fork();
+	if (f == -1)printf("create child process error!");
+	else
+	{
+		if (f != 0)
+			for (x = 0;x < 1000;x++)
+				printf("This is father process %d\n", x);
+		else
+		{
+			for (y = 0;y < 1000;y++)
+				printf("This is child process %d\n", y);
+		}
+	}
+}
